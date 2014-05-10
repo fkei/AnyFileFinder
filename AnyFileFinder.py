@@ -28,6 +28,8 @@ class AnyFileFinderCommand(sublime_plugin.WindowCommand):
 
                 """
                 #print ("on_select: " + str(index))
+                if index == -1:
+                        return
 
                 item = self.items[index]
                 if item[:1] == "/":
@@ -144,8 +146,14 @@ class AnyFileFinderCommand(sublime_plugin.WindowCommand):
                 @see sublime_plugin.WindowCommand.run()
                 """
                 # active view file path
-                highlight_dirname = os.path.dirname(self.window.active_view().file_name())
-                self.update_highlight(highlight_dirname)
+                active_file_name = self.window.active_view().file_name()
+
+                if active_file_name is None:
+                        active_file_name = os.path.expanduser("~")
+                        self.update_highlight(active_file_name)
+                else:
+                        active_file_name = os.path.dirname(active_file_name)        
+                        self.update_highlight(active_file_name)
 
                 sublime.status_message(self.highlight_abspath)
                 self.show_quick_panel()
