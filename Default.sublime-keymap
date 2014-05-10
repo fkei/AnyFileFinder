@@ -1,6 +1,6 @@
 [
         {
-                "caption": "AnyFileFinder",
+                "keys": ["super+a", "super+f"],
                 "command": "any_file_finder"
         }
 ]

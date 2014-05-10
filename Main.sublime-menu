@@ -1,0 +1,43 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "AnyFileFinder",
+                        "children": [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/AnyFileFinder/AnyFileFinder.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/AnyFileFinder.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/AnyFileFinder/Default.sublime-keymap"},
+                                "caption": "Key Bindings – Default"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/AnyFileFinder.sublime-commands"},
+                                "caption": "Commands – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
