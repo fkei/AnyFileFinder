@@ -1,0 +1,19 @@
+# AnyFileFinder
+
+Quickly open the file on the file system. for Sublime Text 3.
+
+## Documentation
+
+It is accessible by keyboard shortcuts and command palette. 
+
+Command palette 
+`Ctrl + Shift + P` on Windows / Linux, `Command + Shift + P` on Mac. 
+
+A keyboard shortcut 
+`super + a, super + f`
+
+
+## License
+Copyright (c) 2014 Kei Funagayama
+
+Licensed under the MIT license.
