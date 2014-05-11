@@ -2,9 +2,10 @@ AnyFileFinder.sublime
 =====================
 
 # WARN!!!!!
-Should I use a plug-in of this place is good.
 
-[Sublime Files](https://sublime.wbond.net/packages/Sublime%20Files)
+**Should I use a plug-in of this place is good.**
+
+[**Sublime Files**](https://sublime.wbond.net/packages/Sublime%20Files)
 
 
 # What is this?
