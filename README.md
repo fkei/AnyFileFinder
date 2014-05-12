@@ -42,6 +42,6 @@ It's easy to use. And based on your selection of the directory, simply find the 
 ![Find in Files example](https://raw.githubusercontent.com/fkei/AnyFileFinder/master/screenshots/AnyFileFinder-001.png)
 
 ## License
-Copyright (c) 2013 Todd Wolfson
+Copyright (c) 2014 Kei Funagayama
 
 Licensed under the MIT license.
